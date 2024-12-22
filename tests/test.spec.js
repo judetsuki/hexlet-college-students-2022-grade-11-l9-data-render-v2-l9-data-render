@@ -2,7 +2,7 @@
 
 import { test, expect } from '@playwright/test';
 
-test('step 1', async ({ page }) => {
+test('step1', async ({ page }) => {
   await page.goto('http://localhost:8070', {
     waitUntil: 'domcontentloaded',
   });
@@ -12,7 +12,7 @@ test('step 1', async ({ page }) => {
   await expect(firstOptionData[0]).toEqual('Все');
 });
 
-test('step 2', async ({ page }) => {
+test('step2', async ({ page }) => {
   await page.goto('http://localhost:8070', {
     waitUntil: 'domcontentloaded',
   });
@@ -23,7 +23,7 @@ test('step 2', async ({ page }) => {
   await expect(cafesList).toBeVisible();
 });
 
-test('step 3', async ({ page }) => {
+test('step3', async ({ page }) => {
   await page.goto('http://localhost:8070', {
     waitUntil: 'domcontentloaded',
   });
@@ -44,7 +44,7 @@ test('step 3', async ({ page }) => {
   ]);
 });
 
-test('step 4', async ({ page }) => {
+test('step4', async ({ page }) => {
   await page.goto('http://localhost:8070', {
     waitUntil: 'domcontentloaded',
   });
