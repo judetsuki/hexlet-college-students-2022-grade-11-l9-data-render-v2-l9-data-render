@@ -43,7 +43,7 @@ const CafesTable = () => {
                         { name: "Александровский сад", code: "Alexanders Garden" },
                         { name: "Московская", code: "Moscow" },
                         { name: "Парк Культуры", code: "Culture" },
-                        { name: "Театральная", code: "Theater" },
+                        { name: "Театральная", code: "Theatr" },
                     ];
                     const subwayName = subwayOptions.find(option => option.code === cafe.subwayCode)?.name || cafe.subwayCode;
                     return (
